@@ -1,17 +1,22 @@
-def find_even_values(src)
+
+nested_array_1 = [ [10, 11], [99, 50, 3, 4], [23, 41] 
+
+def find_even_values(array_1)
  
 count = 0 
- while count < array_of_arrays.length do 
+ while count < nested_array_1.length do 
     
     inner_count = 0 
     
-        while inner_count < array_of_arrays[count].length do 
+        while inner_count < nested_array_1[count].length do 
           
             if inner_count == 2% do 
-             p array_of_arrays[count][inner_count]
+             p nested_array_1[count][inner_count]
              inner_count += 1 
              end 
+             count +=1 
            end 
+           nested_array_1
          end 
  
  
