@@ -9,7 +9,9 @@ while row_index < nested_array_1.count do
   element_index = 0
  
   while element_index < nested_array_1[row_index].count do
+    if nested_array_1[row_index][element_index].even?
     p nested_array_1[row_index][element_index]
+  end
     element_index += 1
   end
  
