@@ -5,10 +5,10 @@ count = 0
     
     inner_count = 0 
     
-        while inner_count < array_of_arrays [count].length do 
+        while inner_count < array_of_arrays[count].length do 
           
             if inner_count == 2% do 
-             p array_of_arrays [count][inner_count]
+             p array_of_arrays[count][inner_count]
              inner_count += 1 
              end 
            end 
