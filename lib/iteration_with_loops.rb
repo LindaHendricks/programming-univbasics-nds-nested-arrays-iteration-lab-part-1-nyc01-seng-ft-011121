@@ -1,8 +1,7 @@
 
 nested_array_1 = [ [10, 11], [99, 50, 3, 4], [23, 41] 
 
-def find_even_values(nested_array_1)
- 
+def find_even_values (nested_array_1)
 count = 0 
  while count < nested_array_1[count].length do 
   inner_count = 0 
