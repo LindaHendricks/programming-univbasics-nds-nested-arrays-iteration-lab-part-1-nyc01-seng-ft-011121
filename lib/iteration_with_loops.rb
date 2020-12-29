@@ -4,7 +4,8 @@ nested_array_1 = [ [10, 11], [99, 50, 3, 4], [23, 41]
 row_index = 0
 
 
-
+def find_even_values (nested_array_1)
+  
 while row_index < nested_array_1 do
   element_index = 0
   while element_index < nested_array_1[row_index].count do
@@ -17,7 +18,7 @@ end
 
 
 
-def find_even_values (nested_array_1)
+
 count = 0 
  while count < nested_array_1[count].length do 
   inner_count = 0 
