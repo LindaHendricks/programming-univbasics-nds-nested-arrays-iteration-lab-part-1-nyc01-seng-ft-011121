@@ -6,9 +6,10 @@ count = 0
  while count < nested_array_1[count].length do 
   inner_count = 0 
    while inner_count < nested_array_1[count].length do 
-        inner_count == 2%  
+      if inner_count == 2%  
         nested_array_1[count][inner_count]
         inner_count += 1 
+      end 
     end 
     count +=1
   end 
