@@ -9,7 +9,6 @@ def find_even_values (nested_array_1)
 while row_index < nested_array_1.count do
   element_index = 0
   while element_index < nested_array_1[row_index].count do
-    if element_index == 2%
     p nested_array_1[row_index][element_index]
     element_index += 1
   end
